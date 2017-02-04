@@ -56,8 +56,16 @@ public class WorldCreater {
     }
 
 
-    public void updateCamera(float dt) {
-        
+    public GameCamera getGameCamera() {
+        return gameCamera;
+    }
+
+    public GameRender getGameRender() {
+        return gameRender;
+    }
+
+    public GameMap getGameMap() {
+        return gameMap;
     }
 
     public World getWorld() {
